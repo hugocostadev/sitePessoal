@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hugo Costa | Freelancer Web Designer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--font awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--Animação JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+
+</head>
+<body>
+
+<div class="wrapper">
+    
+<!--Nav-bar-->
+<header>
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i><span id="menu">MENU</span>
+      </a>
+    </span>
+
+    <nav class="navbar-nav">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#portfolio">Portifólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </nav>
+
+<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#sobre" onclick="closeSlideMenu()">Sobre</a>
+    <a href="#servicos" onclick="closeSlideMenu()">Serviços</a>
+    <a href="#portfolio" onclick="closeSlideMenu()">Portifólio</a>
+    <a href="#contato" onclick="closeSlideMenu()">Contato</a>
+  </div>
+
+</header>
+
+<!--Landing Page-->
+<section class="landing" id="landing"> 
+    <div class="bg-img"></div>
+
+        <img src="img/logo300.png" alt="">
+
+
+    <div class="txt-landing">
+        <h2>Oi,</h2>
+        <h2>Eu sou o Hugo</h2>
+        <h2>Desenvolvedor Front-End</h2>
+    </div>
+        
+    <a href="#contato" class="btn blue">Entre em contato!</a>
+    
+
+</section>
+
+<!--Sobre-->
+<section class="sobre" id="sobre">
+        <h1>Sobre mim:</h1>
+        <hr>
+    <div class="txt-sobre">
+        <img src="img/img-perfil.png" alt="">
+        <p>Sou o Hugo, tenho 19 anos, sou estudande de Ciência da Computação na Universidade Federal
+        de Alfenas (UNIFAL-MG), participo da Empresa Júnior TriBit Jr, na qual assumo o cargo de diretor
+        Presidente e faço trabalhos de Desenvolvimento Front-End. Meus interesses são em novas tecnologias,
+        desenvolvimento web, empreendedorismo, e produtividade. 
+        </p>
+    </div>
+
+</section>
+
+<!--Qualidades-->
+<section class="skills" id="skills"> 
+        <h1>Habilidades </h1>
+        <hr>
+<!--Skills Bar-->
+<div class="skill-area">
+    <!--HTML-->
+    <div class="bar-1">
+    <div class="title">HTML5</div>
+    <div class="bar" data-width="90%">
+      <div class="bar-inner"></div>
+      <div class="bar-percent">90%</div>
+    </div>
+    </div>
+
+    <!--CSS-->
+    <div class="bar-1">
+        <div class="title">CSS3</div>
+            <div class="bar" data-width="70%">
+            <div class="bar-inner"></div>
+            <div class="bar-percent">70%</div>
+        </div>
+    </div>
+
+    <!--JavaScript-->
+    <div class="bar-1">
+    <div class="title">Javascript</div>
+        <div class="bar" data-width="60%">
+            <div class="bar-inner"></div>
+            <div class="bar-percent">60%</div>
+        </div>
+    </div> 
+
+    <!--PHP-->
+    <div class="bar-1">
+    <div class="title">PHP7</div>
+        <div class="bar" data-width="50%">
+            <div class="bar-inner"></div>
+            <div class="bar-percent">50%</div>
+        </div>
+    </div>
+
+
+    <!--UI/UX-->
+    <div class="bar-1">
+    <div class="title">UI/UX</div>
+        <div class="bar" data-width="40%">
+            <div class="bar-inner"></div>
+            <div class="bar-percent">40%</div>
+        </div>
+    </div>
+
+    <!--Scrum-->
+    <div class="bar-1">
+    <div class="title">Scrum</div>
+        <div class="bar" data-width="70%">
+            <div class="bar-inner"></div>
+            <div class="bar-percent">70%</div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!--Serviços-->
+<section class="servicos" id="servicos"> 
+    <h1>Serviços </h1>
+    <hr>
+    <div class="webdesign">
+        <img src="img/responsiveweb.png" alt="">
+        <div class="txt-webdesign">
+            <h2>Web Design responsivo </h2>
+            <p>Criação de websites para todos os tipos de dispositivos.</p>
+        </div>
+    </div>
+        <div class="mktdigital">
+        <img src="img/mktdigital.png" alt="">
+        <div class="txt-mkt">
+            <h2>Marketing Digital </h2>
+            <p>Faça sua empresa visivel para o mundo digital.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!--Portfólio-->
+<section class="portfolio" id="portfolio"> 
+    <h1>Portfólio </h1>
+    <hr>
+    <div class="trabalhos">
+        <div class="card">
+            <a href="http://piso.eco.br/" target="_blank"><img src="img/piso.png" alt=""></a>
+            <h2>PISO </h2>
+            <p>Website Responsivo</p>
+            <a href="http://piso.eco.br/" class="btn blue" target="_blank">Visitar o website</a>
+        </div>
+        <div class="card">
+            <a href="http://biotecinova.com.br/" target="_blank"><img src="img/biotecinova.png" alt=""></a>
+            <h2>Biotec Inova </h2>
+            <p>Website Responsivo</p>
+            <a href="http://biotecinova.com.br/" class="btn blue" target="_blank">Visitar o website</a>
+        </div>
+        <div class="card">
+            <a href="http://www.bcc.unifal-mg.edu.br/sacic/2016/" target="_blank"><img src="img/sacic.png" alt=""></a>
+            <h2>SACIC </h2>
+            <p>Website Responsivo</p>
+            <a href="http://www.bcc.unifal-mg.edu.br/sacic/2016/" class="btn blue" target="_blank">Visitar o website</a>
+        </div>
+    </div>
+</section>
+
+<!--Siga-me-->
+<section class="medias" id="medias">
+        <h1>Siga-me </h1>
+        <hr>
+    <div class="icons">
+        <a href="https://twitter.com/_HugoCCosta" target="_blank"><i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/_hugoccosta/" target="_blank"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/hugo.carreiracosta" target="_blank"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/hugocarreiracosta/" target="_blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/user/CanalHugoCosta" target="_blank"><i class="fa fa-youtube fa-4x" aria-hidden="true"></i></a>
+        <a href="https://medium.com/@hugocarreiracosta" target="_blank"><i class="fa fa-medium fa-4x" aria-hidden="true"></i></a>
+        <a href="https://github.com/hugocarreiracosta" target="_blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+    </div>
+</section>
+
+<!--Contato -->
+
+<section class="contato" id="contato"> 
+        <h1>Entre em contato </h1>
+        <hr>
+
+    <div class="inputGroup">      
+    <input type="text" required />
+    <span class="inputBar"></span>
+    <label>Nome</label>
+  </div>
+
+  <div class="inputGroup">      
+    <input type="text" required />
+    <span class="inputBar"></span>
+    <label>E-mail</label>
+  </div>
+
+  <div class="inputGroup">      
+    <textarea type="textarea" required></textarea>
+    <span class="inputBar"></span>
+    <label>Mensagem</label>
+  </div>
+
+  <div class="btn blue">Enviar</div>
+
+</section>
+
+
+
+</div>
+</body>
+
+
+<script language="JavaScript" type="text/javascript" src="js/main.js"></script>
+</html>
