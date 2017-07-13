@@ -87,7 +87,7 @@ li, nav{
     margin: 10px;
 }
 
-a, nav{
+header, a{
 	text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -218,6 +218,10 @@ span #menu{
 
 .sobre .txt-sobre p{
     margin-left: 3%;
+}
+
+.txt-sobre a{
+    color: #000;
 }
 
 
@@ -508,6 +512,23 @@ span #menu{
   left: 50%;
 }
 
+/*  --------------------- 
+    ------FOOTER---------
+    --------------------- 
+*/
+
+footer p{
+    text-align: center;
+    color: lightgray;
+}
+
+footer a{
+    color: white;
+}
+
+footer {
+    background-color: #2B2C34;
+}
 
 
 /*==========  Medias Queries   ==========*/
