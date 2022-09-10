@@ -1,228 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Hugo Costa - Front End</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <title>Hugo Costa - Front End </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css" />
 
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css" />
 
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/ionicons.min.css" />
 
-  <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="css/ionicons.min.css">
-
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-  <div class="page">
-    <div id="colorlib-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html">Hugo Costa</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
+  <body>
+    <div class="page">
+      <div id="colorlib-page">
+        <header>
           <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center"
-              data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Oi! Eu sou Hugo</a></p>
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Desenvolvedor </h1>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="colorlib-navbar-brand">
+                  <a class="colorlib-logo" href="index.html">Hugo Costa</a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </header>
 
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
+        <section class="ftco-section about-section">
           <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center"
-              data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Oi! Eu sou Hugo</a></p>
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">UI Designer</h1>
+            <div class="row d-flex" >
+              <div
+                class="col-md-4 author-img"
+                style="background-image: url(images/profile.jpeg)"
+                data-scrollax=" properties: { translateY: '-60%'}"
+              ></div>
+              <div class="col-md-1"></div>
+              <div class="col-md-7 wrap ftco-animate">
+                <div class="about-desc">
+                  <h1 class="bold-text">SOBRE</h1>
+                  <div class="p-5">
+                    <h2 class="mb-5">Eai, tudo bem ? Eu sou o Hugo Costa</h2>
+                    <p>
+                      Sou Sr. Frontend Engineer atualmente trabalhando na
+                      empresa Rocket.Chat com milhões de usuários ativos e um
+                      dos maiores projetos open source do mundo.
+                    </p>
+                    <p>
+                      Sou apaixonado por tecnologia e por resolver problemas
+                      através de código. Sou um entusiasta de tecnologias
+                      open-source e adoro contribuir com a comunidade.
+                    </p>
+                    <p>
+                      <i>"A melhor aplicação é a que apresenta a melhor experiência para o usuário."<i>
+                    </p>
+                    <p>Vamos construir algo maravilhoso juntos!</p>
+                    <ul class="ftco-footer-social list-unstyled mt-4">
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/hugocarreiracosta/"
+                          target="_blank"
+                          ><span class="icon-linkedin"></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/hugocarreiracosta"
+                          ><span class="icon-github" target="_blank"></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://linktr.ee/hugocostadev"
+                          ><span class="icon-link" target="_blank"></span
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5">
+                <h5>Entre em contato!</h5>
+                <p>
+                  Email:
+                  <a href="mailto:hugocarreiracosta@gmail.com"
+                    >hugocarreiracosta@gmail.com</a
+                  >
+                </p>
+                <p>
+                  Whatsapp:
+                  <a
+                    href="https://api.whatsapp.com/send?phone=55119932120497&text=Olá!%20Vamos%20conversar%20sobre%20seus%20serviços"
+                    target="_blank"
+                    >(11)99321-2049</a
+                  >
+                </p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- END slider -->
+        </section>
 
-      <section class="ftco-section about-section">
-        <div class="container">
-          <div class="row d-flex" data-scrollax-parent="true">
-            <div class="col-md-4 author-img" style="background-image: url(images/profile.jpg);"
-              data-scrollax=" properties: { translateY: '-70%'}"></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-7 wrap ftco-animate">
-              <div class="about-desc">
-                <h1 class="bold-text">SOBRE</h1>
-                <div class="p-5">
-                  <h2 class="mb-5">Eai, tudo bem ? Eu sou o Hugo Costa</h2>
-                  <p>Sou desenvolvedor web e mobile, e adoro fazer design de interfaces. Eu acredito que a melhor
-                    aplicação é a que apresenta a melhor experiência para o usuário.</p>
-                  <p>Vamos construir algo maravilhoso juntos! </p>
-                  <ul class="ftco-footer-social list-unstyled mt-4">
-                    <li><a href="https://www.linkedin.com/in/hugocarreiracosta/" target="_blank"><span
-                          class="icon-linkedin"></span></a></li>
-                    <li><a href="https://medium.com/@hugocarreiracosta"><span class="icon-medium"
-                          target="_blank"></span></a></li>
-                    <li><a href="https://github.com/hugocarreiracosta"><span class="icon-github"
-                          target="_blank"></span></a></li>
+        <section class="ftco-section">
+          <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+              <div class="col-md-7 text-center heading-section ftco-animate">
+                <span>Confira os</span>
+                <h2>MEUS SERVIÇOS</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex align-self-stretch ftco-animate">
+                <div
+                  class="media block-6 services p-3 py-4 d-block text-center"
+                >
+                  <div class="icon mb-3"><span class="icon-layers"></span></div>
+                  <div class="media-body">
+                    <h3 class="heading">UI Design</h3>
+                    <h3 class="heading">Design de Aplicações</h3>
+                    <h3 class="heading">Design Responsivo</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-self-stretch ftco-animate">
+                <div
+                  class="media block-6 services p-3 py-4 d-block text-center"
+                >
+                  <div class="icon mb-3"><span class="icon-code"></span></div>
+                  <div class="media-body">
+                    <h3 class="heading">Desenvolvimento de Sites</h3>
+                    <h3 class="heading">Desenvolvimento de Aplicações</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ftco-section">
+          <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+              <div class="col-md-7 text-center heading-section ftco-animate">
+                <span>Portfólio</span>
+                <h2>CONFIRA ALGUNS DE MEUS TRABALHOS</h2>
+              </div>
+            </div>
+
+            <div class="row no-gutters justify-content-center">
+              <a
+                href="https://www.rocket.chat/team-collaboration"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/rocketchat-showcase.png" class="img-fluid m-2" alt="" />
+              </a>
+              <div class="col-md-2"></div>
+              <a
+                href="https://www.motorola.co.uk/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/motorola-showcase.gif" class="img-fluid m-2" alt="" />
+              </a>
+              <a
+                href="https://fiusaone.netlify.com/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto1.png" class="img-fluid m-2" alt="" />
+              </a>
+              <div class="col-md-2"></div>
+              <a
+                href="https://chd.netlify.com/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto2.png" class="img-fluid m-2" alt="" />
+              </a>
+              <a
+                href="https://bestribeirao.netlify.com/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto3.png" class="img-fluid m-2" alt="" />
+              </a>
+              <div class="col-md-2"></div>
+
+              <a
+                href="https://ateliedamusica.netlify.com/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto4.png" class="img-fluid m-2" alt="" />
+              </a>
+              <a
+                href="https://onixelevadores.netlify.com/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto5.png" class="img-fluid m-2" alt="" />
+              </a>
+              <div class="col-md-2"></div>
+
+              <a
+                href="https://www.fashionbazarrp.com.br/"
+                target="_blank"
+                class="col-md-5 ftco-animate"
+              >
+                <img src="./images/projeto6.png" class="img-fluid m-2" alt="" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+          <div class="container">
+            <div class="row mb-5 justify-content-center">
+              <div class="col-md-5 text-center">
+                <div class="ftco-footer-widget mb-5">
+                  <ul class="ftco-footer-social list-unstyled">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/hugocarreiracosta/"
+                        target="_blank"
+                        ><span class="icon-linkedin"></span
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/hugocarreiracosta"
+                        ><span class="icon-github" target="_blank"></span
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="https://linktr.ee/hugocostadev"
+                        ><span class="icon-link" target="_blank"></span
+                      ></a>
+                    </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-                <div class="ml-4">
-                  <h5>Entre em contato!</h5>
-                  <p>Email: <a href="mailto:hugocarreiracosta@gmail.com">hugocarreiracosta@gmail.com</a></p>
-                  <p>Whatsapp: <a href="https://api.whatsapp.com/send?phone=55016991991997&text=Olá!%20Vamos%20conversar%20sobre%20seus%20serviços" target="_blank">(16)99199-1997</a></p>
-                </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="ftco-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Confira os</span>
-              <h2>MEUS SERVIÇOS</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-layers"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">UI Design</h3>
-                  <h3 class="heading">Design de Aplicativos</h3>
-                  <h3 class="heading">Design Responsivo</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex align-self-stretch ftco-animate">
-              <div class="media block-6 services p-3 py-4 d-block text-center">
-                <div class="icon mb-3"><span class="icon-code"></span></div>
-                <div class="media-body">
-                  <h3 class="heading">Desenvolvimento de Sites</h3>
-                  <h3 class="heading">Desenvolvimento de Aplicativos</h3>
+                <div class="ftco-footer-widget">
+                  <h2 class="mb-3">VAMOS CONVERSAR</h2>
+                  <p class="email">
+                    <a href="mailto:hugocarreiracosta@gmail.com"
+                      >hugocarreiracosta@gmail.com</a
+                    >
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </footer>
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen">
+          <svg class="circular" width="48px" height="48px">
+            <circle
+              class="path-bg"
+              cx="24"
+              cy="24"
+              r="22"
+              fill="none"
+              stroke-width="4"
+              stroke="#eeeeee"
+            />
+            <circle
+              class="path"
+              cx="24"
+              cy="24"
+              r="22"
+              fill="none"
+              stroke-width="4"
+              stroke-miterlimit="10"
+              stroke="#2f89fc"
+            />
+          </svg>
         </div>
-      </section>
-
-      <section class="ftco-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Portfólio</span>
-              <h2>CONFIRA MEUS ÚLTIMOS TRABALHOS</h2>
-            </div>
-          </div>
-       
-          <div class="row no-gutters  justify-content-center">
-            <a href="https://fiusaone.netlify.com/" target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto1.png" class="img-fluid m-2" alt="">
-            </a>
-            <div class="col-md-2"></div>
-            <a href="https://chd.netlify.com/" target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto2.png" class="img-fluid m-2" alt="">
-            </a>
-            <a href="https://bestribeirao.netlify.com/" target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto3.png" class="img-fluid m-2" alt="">
-            </a>
-            <div class="col-md-2"></div>
-
-            <a href="https://ateliedamusica.netlify.com/"  target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto4.png" class="img-fluid m-2" alt="">
-            </a>
-            <a href="https://onixelevadores.netlify.com/"  target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto5.png" class="img-fluid m-2" alt="">
-            </a>
-            <div class="col-md-2"></div>
-
-            <a href="https://www.fashionbazarrp.com.br/" target="_blank" class="col-md-5 ftco-animate" >
-              <img src="./images/projeto6.png" class="img-fluid m-2" alt="">
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-              <div class="ftco-footer-widget mb-5">
-                <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate"><a href="https://www.linkedin.com/in/hugocarreiracosta/" target="_blank"><span class="icon-linkedin"></span></a></li>
-                  <li class="ftco-animate"><a href="https://medium.com/@hugocarreiracosta" target="_blank"><span class="icon-medium"></span></a></li>
-                  <li class="ftco-animate"><a href="https://github.com/hugocarreiracosta" target="_blank"><span class="icon-github"></span></a></li>
-                </ul>
-              </div>
-              <div class="ftco-footer-widget">
-                <h2 class="mb-3">VAMOS CONVERSAR</h2>
-                <p class=" email"><a href="mailto:hugocarreiracosta@gmail.com">hugocarreiracosta@gmail.com</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <!-- loader -->
-      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-            stroke="#2f89fc" /></svg></div>
-
+      </div>
     </div>
 
-  </div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
