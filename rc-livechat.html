@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RC - Test</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Start of Rocket.Chat Livechat Script -->
+    <script type="text/javascript">
+      (function (w, d, s, u) {
+        w.RocketChat = function (c) {
+          w.RocketChat._.push(c);
+        };
+        w.RocketChat._ = [];
+        w.RocketChat.url = u;
+        var h = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = true;
+        j.src =
+          "https://open.rocket.chat/livechat/rocketchat-livechat.min.js?_=201903270000";
+        h.parentNode.insertBefore(j, h);
+      })(window, document, "script", "https://open.rocket.chat/livechat");
+    </script>
+  </head>
+
+  <body style="background-color: #efefef">
+    <h1 style="color: #000">test</h1>
+    <p style="color: #000">Talk to us.</p>
+
+    <h2>changing page title</h2>
+    <a href="#page-0" onclick="document.title='page-0'">page 0</a><br />
+    <a href="#page-1" onclick="document.title='page-1'">page 1</a><br />
+    <a href="#page-2" onclick="document.title='page-2'">page 2</a><br />
+    <a href="#page-3" onclick="document.title='page-3'">page 3</a><br />
+
+    <h2>without changing page title</h2>
+    <a href="#page-4">page 4</a><br />
+    <a href="#page-5">page 5</a><br />
+    <a href="#page-6">page 6</a><br />
+    <a href="#page-7">page 7</a><br />
+
+    <script type="text/javascript">
+      RocketChat(function () {
+        this.setCustomField("key-test", "value test");
+      });
+    </script>
+  </body>
+  <!-- <body>
+    <iframe
+    id="myiframe"
+      src="http://localhost:3000/livechat"
+      frameborder="0"
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+    ></iframe>
+  </body> -->
+</html>
